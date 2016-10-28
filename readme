@@ -1,2 +1,18 @@
 git submodule init
 git submodule update
+
+---- notes
+
+- theoretical arch would be to have https through two containers
+  - nginx docker container (has https)
+  - emacs docker container
+    - emacs
+    - org
+    - ehtml
+    - deps
+    - git, for committing
+    - filesystem access (org files, git commits)
+- js file is broken -- seems like html export has changed (no more "content begin/end" markers) not a whole lot to keep here
+- going to need to fixup secrets script before this could really be deployed "correctly"
+  - need to git check out/push private org files
+  - need to get username/password for http auth(may not really need secret script, but why not?)

@@ -1,0 +1,9 @@
+* root
+ edit button works via "edit_in_place". I swear I remember an option that allowed editing everything, but I dont
+ see that here
+  :PROPERTIES:
+  :HTML_CONTAINER_CLASS: edit_in_place
+  :END:
+** subheading
+   subheading content this should also inherit the html container class
+*** thirheading
