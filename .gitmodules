@@ -1,0 +1,6 @@
+[submodule "org-ehtml"]
+	path = org-ehtml
+	url = https://github.com/joelmccracken/org-ehtml
+[submodule "emacs-web-server"]
+	path = emacs-web-server
+	url = https://github.com/joelmccracken/emacs-web-server
